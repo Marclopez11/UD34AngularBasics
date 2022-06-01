@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+
+      <div class="main">
+        <h1>{{calculadora}}</h1>
+
+        <input id="display" class="calc-display" type="text" placeholder="0"><br>
+        <input id="display2" class="calc-display-result" type="text" placeholder="0"><br>
+
+        <input class="clear clcunicosespecial " type="button" (click)="c()" value="C"><br>
+        <input class="clc" type="button" value="9" (click)="insrt(9)">
+        <input class="clc" type="button" value="8" (click)="insrt(8)">
+        <input class="clc" type="button" value="7" (click)="insrt(7)">
+        <input class="clc especial" type="button" value="/" (click)="insrt('/')"><br>
+        <input class="clc" type="button" value="6" (click)="insrt(6)">
+        <input class="clc" type="button" value="5" (click)="insrt(5)">
+        <input class="clc" type="button" value="4" (click)="insrt(4)">
+        <input class="clc especial" type="button" value="+" (click)="insrt('+')"><br>
+        <input class="clc" type="button" value="3" (click)="insrt(3)">
+        <input class="clc" type="button" value="2" (click)="insrt(2)">
+        <input class="clc" type="button" value="1" (click)="insrt(1)">
+        <input class="clc especial" type="button" value="*" (click)="insrt('*')"><br>
+        <input class="clc" type="button" value="." (click)="insrt('.')">
+        <input class="clc" type="button" value="0" (click)="insrt(0)">
+        <input class="clc" type="button" value="00" (click)="insrt(00)">
+        <input class="finalresult" type="button" value="-" (click)="insrt('-')">
+
+
+
+      </div>
+      <input class="clc clcunicos especial" type="button" value="=" (click)="eql()">
+
+
+    </div>
+    <div class="col-md-2"></div>
+
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+
+
+<router-outlet></router-outlet>
