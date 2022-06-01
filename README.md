@@ -1,6 +1,9 @@
 # T34AngularCalc
 # # CALCULADORA [CALCULADORA](https://github.com/angular/angular-cli)
 
+![image](https://user-images.githubusercontent.com/99056015/171504631-fe2b2cec-e101-44d5-b817-1877ad6e6e8d.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
 ## Development server
